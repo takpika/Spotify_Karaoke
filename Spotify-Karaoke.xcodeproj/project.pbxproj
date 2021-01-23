@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318608D525BC3B71008CA279 /* Spotify_KaraokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */; };
+		318608D725BC3B71008CA279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608D625BC3B71008CA279 /* ContentView.swift */; };
+		318608D925BC3B72008CA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318608D825BC3B72008CA279 /* Assets.xcassets */; };
+		318608DC25BC3B72008CA279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318608DB25BC3B72008CA279 /* Preview Assets.xcassets */; };
+		318608E725BC3B73008CA279 /* Spotify_KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608E625BC3B73008CA279 /* Spotify_KaraokeTests.swift */; };
+		318608F225BC3B73008CA279 /* Spotify_KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608F125BC3B73008CA279 /* Spotify_KaraokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318608E325BC3B73008CA279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318608C925BC3B71008CA279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318608D025BC3B71008CA279;
+			remoteInfo = "Spotify-Karaoke";
+		};
+		318608EE25BC3B73008CA279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318608C925BC3B71008CA279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318608D025BC3B71008CA279;
+			remoteInfo = "Spotify-Karaoke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		318608D125BC3B71008CA279 /* Spotify-Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify-Karaoke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_KaraokeApp.swift; sourceTree = "<group>"; };
+		318608D625BC3B71008CA279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		318608D825BC3B72008CA279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		318608DB25BC3B72008CA279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318608DD25BC3B72008CA279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318608E225BC3B73008CA279 /* Spotify-KaraokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotify-KaraokeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318608E625BC3B73008CA279 /* Spotify_KaraokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_KaraokeTests.swift; sourceTree = "<group>"; };
+		318608E825BC3B73008CA279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318608ED25BC3B73008CA279 /* Spotify-KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotify-KaraokeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		318608F125BC3B73008CA279 /* Spotify_KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_KaraokeUITests.swift; sourceTree = "<group>"; };
+		318608F325BC3B73008CA279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318608CE25BC3B71008CA279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608DF25BC3B73008CA279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608EA25BC3B73008CA279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318608C825BC3B71008CA279 = {
+			isa = PBXGroup;
+			children = (
+				318608D325BC3B71008CA279 /* Spotify-Karaoke */,
+				318608E525BC3B73008CA279 /* Spotify-KaraokeTests */,
+				318608F025BC3B73008CA279 /* Spotify-KaraokeUITests */,
+				318608D225BC3B71008CA279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318608D225BC3B71008CA279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318608D125BC3B71008CA279 /* Spotify-Karaoke.app */,
+				318608E225BC3B73008CA279 /* Spotify-KaraokeTests.xctest */,
+				318608ED25BC3B73008CA279 /* Spotify-KaraokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318608D325BC3B71008CA279 /* Spotify-Karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */,
+				318608D625BC3B71008CA279 /* ContentView.swift */,
+				318608D825BC3B72008CA279 /* Assets.xcassets */,
+				318608DD25BC3B72008CA279 /* Info.plist */,
+				318608DA25BC3B72008CA279 /* Preview Content */,
+			);
+			path = "Spotify-Karaoke";
+			sourceTree = "<group>";
+		};
+		318608DA25BC3B72008CA279 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				318608DB25BC3B72008CA279 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		318608E525BC3B73008CA279 /* Spotify-KaraokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				318608E625BC3B73008CA279 /* Spotify_KaraokeTests.swift */,
+				318608E825BC3B73008CA279 /* Info.plist */,
+			);
+			path = "Spotify-KaraokeTests";
+			sourceTree = "<group>";
+		};
+		318608F025BC3B73008CA279 /* Spotify-KaraokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				318608F125BC3B73008CA279 /* Spotify_KaraokeUITests.swift */,
+				318608F325BC3B73008CA279 /* Info.plist */,
+			);
+			path = "Spotify-KaraokeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318608D025BC3B71008CA279 /* Spotify-Karaoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318608F625BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-Karaoke" */;
+			buildPhases = (
+				318608CD25BC3B71008CA279 /* Sources */,
+				318608CE25BC3B71008CA279 /* Frameworks */,
+				318608CF25BC3B71008CA279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spotify-Karaoke";
+			productName = "Spotify-Karaoke";
+			productReference = 318608D125BC3B71008CA279 /* Spotify-Karaoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		318608E125BC3B73008CA279 /* Spotify-KaraokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318608F925BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeTests" */;
+			buildPhases = (
+				318608DE25BC3B73008CA279 /* Sources */,
+				318608DF25BC3B73008CA279 /* Frameworks */,
+				318608E025BC3B73008CA279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318608E425BC3B73008CA279 /* PBXTargetDependency */,
+			);
+			name = "Spotify-KaraokeTests";
+			productName = "Spotify-KaraokeTests";
+			productReference = 318608E225BC3B73008CA279 /* Spotify-KaraokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		318608EC25BC3B73008CA279 /* Spotify-KaraokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318608FC25BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeUITests" */;
+			buildPhases = (
+				318608E925BC3B73008CA279 /* Sources */,
+				318608EA25BC3B73008CA279 /* Frameworks */,
+				318608EB25BC3B73008CA279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318608EF25BC3B73008CA279 /* PBXTargetDependency */,
+			);
+			name = "Spotify-KaraokeUITests";
+			productName = "Spotify-KaraokeUITests";
+			productReference = 318608ED25BC3B73008CA279 /* Spotify-KaraokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318608C925BC3B71008CA279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					318608D025BC3B71008CA279 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					318608E125BC3B73008CA279 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 318608D025BC3B71008CA279;
+					};
+					318608EC25BC3B73008CA279 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 318608D025BC3B71008CA279;
+					};
+				};
+			};
+			buildConfigurationList = 318608CC25BC3B71008CA279 /* Build configuration list for PBXProject "Spotify-Karaoke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 318608C825BC3B71008CA279;
+			productRefGroup = 318608D225BC3B71008CA279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318608D025BC3B71008CA279 /* Spotify-Karaoke */,
+				318608E125BC3B73008CA279 /* Spotify-KaraokeTests */,
+				318608EC25BC3B73008CA279 /* Spotify-KaraokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318608CF25BC3B71008CA279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318608DC25BC3B72008CA279 /* Preview Assets.xcassets in Resources */,
+				318608D925BC3B72008CA279 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608E025BC3B73008CA279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608EB25BC3B73008CA279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318608CD25BC3B71008CA279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318608D725BC3B71008CA279 /* ContentView.swift in Sources */,
+				318608D525BC3B71008CA279 /* Spotify_KaraokeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608DE25BC3B73008CA279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318608E725BC3B73008CA279 /* Spotify_KaraokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318608E925BC3B73008CA279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318608F225BC3B73008CA279 /* Spotify_KaraokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318608E425BC3B73008CA279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318608D025BC3B71008CA279 /* Spotify-Karaoke */;
+			targetProxy = 318608E325BC3B73008CA279 /* PBXContainerItemProxy */;
+		};
+		318608EF25BC3B73008CA279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318608D025BC3B71008CA279 /* Spotify-Karaoke */;
+			targetProxy = 318608EE25BC3B73008CA279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		318608F425BC3B73008CA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		318608F525BC3B73008CA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318608F725BC3B73008CA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotify-Karaoke/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spotify-Karaoke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-Karaoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		318608F825BC3B73008CA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotify-Karaoke/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spotify-Karaoke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-Karaoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		318608FA25BC3B73008CA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "Spotify-KaraokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-KaraokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotify-Karaoke.app/Spotify-Karaoke";
+			};
+			name = Debug;
+		};
+		318608FB25BC3B73008CA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "Spotify-KaraokeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-KaraokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotify-Karaoke.app/Spotify-Karaoke";
+			};
+			name = Release;
+		};
+		318608FD25BC3B73008CA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "Spotify-KaraokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-KaraokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spotify-Karaoke";
+			};
+			name = Debug;
+		};
+		318608FE25BC3B73008CA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = "Spotify-KaraokeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-KaraokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spotify-Karaoke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318608CC25BC3B71008CA279 /* Build configuration list for PBXProject "Spotify-Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318608F425BC3B73008CA279 /* Debug */,
+				318608F525BC3B73008CA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318608F625BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318608F725BC3B73008CA279 /* Debug */,
+				318608F825BC3B73008CA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318608F925BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318608FA25BC3B73008CA279 /* Debug */,
+				318608FB25BC3B73008CA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318608FC25BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318608FD25BC3B73008CA279 /* Debug */,
+				318608FE25BC3B73008CA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318608C925BC3B71008CA279 /* Project object */;
+}
