@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>navi</key>
+	<dict>
+        <key>W</key>
+        <true/>
+        <key>JT</key>
+        <true/>
+        <key>T</key>
+        <true/>
+        <key>Q</key>
+        <true/>
+        <key>N</key>
+        <true/>
+        <key>J</key>
+        <true/>
+        <key>X</key>
+        <true/>
+        <key>U</key>
+        <true/>
+        <key>R</key>
+        <true/>
+        <key>M</key>
+        <false/>
+        <key>G</key>
+        <false/>
+        <key>H</key>
+        <false/>
+        <key>V</key>
+        <false/>
+        <key>S</key>
+        <false/>
+        <key>JV</key>
+        <false/>
+        <key>K</key>
+        <false/>
+        <key>I</key>
+        <false/>
+        <key>UA</key>
+        <false/>
+        <key>UB</key>
+        <false/>
+        <key>UC</key>
+        <false/>
+        <key>UD</key>
+        <false/>
+        <key>UE</key>
+        <false/>
+        <key>UF</key>
+        <false/>
+        <key>UG</key>
+        <false/>
+	</dict>
+	<key>name</key>
+	<dict>
+		<key>W</key>
+		<string>JOYSOUND MAX GO</string>
+		<key>JT</key>
+		<string>JOYSOUND MAX2</string>
+		<key>T</key>
+		<string>JOYSOUND MAX</string>
+		<key>Q</key>
+		<string>JOYSOUND f1</string>
+		<key>N</key>
+		<string>CROSSO</string>
+		<key>J</key>
+		<string>HyperJoyWAVE</string>
+		<key>X</key>
+		<string>JOYSOUND 響Ⅱ</string>
+		<key>U</key>
+		<string>JOYSOUND 響</string>
+		<key>R</key>
+		<string>JOYSOUND fR</string>
+		<key>M</key>
+		<string>JEWEL</string>
+		<key>G</key>
+		<string>HyperJoyV2</string>
+		<key>H</key>
+		<string>CelebJoyHearts</string>
+		<key>V</key>
+		<string>JOYSOUND FESTA2</string>
+		<key>S</key>
+		<string>JOYSOUND FESTA</string>
+		<key>JV</key>
+		<string>JOYSOUND WAGON2</string>
+		<key>K</key>
+		<string>JOYSOUND WAGON</string>
+		<key>I</key>
+		<string>EnjoyStage/EnjoyPortable</string>
+		<key>UA</key>
+		<string>uga next</string>
+		<key>UB</key>
+		<string>uga next Lite</string>
+		<key>UC</key>
+		<string>uga next Lite(S)</string>
+		<key>UD</key>
+		<string>uga plus</string>
+		<key>UE</key>
+		<string>UGA</string>
+		<key>UF</key>
+		<string>UGA-neonR2</string>
+		<key>UG</key>
+		<string>UGA-RAKUEN</string>
+	</dict>
+</dict>
+</plist>

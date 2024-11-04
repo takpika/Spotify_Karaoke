@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB5E67014F91FFEC2BBC2F4 /* Pods_Spotify_KaraokeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DDF0D0E9479FCCAB414E31 /* Pods_Spotify_KaraokeTests.framework */; };
+		314EA48725BC4DB0008D26E8 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EA48625BC4DB0008D26E8 /* code.swift */; };
+		3161E66A25BDB035008C2E91 /* joysound-biz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3161E66925BDB035008C2E91 /* joysound-biz.plist */; };
 		318608D525BC3B71008CA279 /* Spotify_KaraokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */; };
 		318608D725BC3B71008CA279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608D625BC3B71008CA279 /* ContentView.swift */; };
 		318608D925BC3B72008CA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318608D825BC3B72008CA279 /* Assets.xcassets */; };
 		318608DC25BC3B72008CA279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318608DB25BC3B72008CA279 /* Preview Assets.xcassets */; };
 		318608E725BC3B73008CA279 /* Spotify_KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608E625BC3B73008CA279 /* Spotify_KaraokeTests.swift */; };
 		318608F225BC3B73008CA279 /* Spotify_KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318608F125BC3B73008CA279 /* Spotify_KaraokeUITests.swift */; };
+		31DFA37925BCA9FA00DB896A /* cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFA37825BCA9FA00DB896A /* cells.swift */; };
+		31DFA38125BCB04F00DB896A /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFA38025BCB04F00DB896A /* SongList.swift */; };
+		31F5ABF125BDD48600084B52 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 31F5ABF025BDD48600084B52 /* BetterSafariView */; };
+		8BC57F0A477FA11B9702851A /* Pods_Spotify_Karaoke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A51B610209C1CD4DB039799 /* Pods_Spotify_Karaoke.framework */; };
+		F20D36D062FB9CA271192DE5 /* Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E194CB69077FD1C7CDAB7C8 /* Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1014E0C04935D13C960F6667 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-Karaoke-Spotify-KaraokeUITests.release.xcconfig"; path = "Target Support Files/Pods-Spotify-Karaoke-Spotify-KaraokeUITests/Pods-Spotify-Karaoke-Spotify-KaraokeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		314EA48625BC4DB0008D26E8 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
+		3161E66925BDB035008C2E91 /* joysound-biz.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "joysound-biz.plist"; sourceTree = "<group>"; };
 		318608D125BC3B71008CA279 /* Spotify-Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify-Karaoke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_KaraokeApp.swift; sourceTree = "<group>"; };
 		318608D625BC3B71008CA279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,17 @@
 		318608ED25BC3B73008CA279 /* Spotify-KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotify-KaraokeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318608F125BC3B73008CA279 /* Spotify_KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_KaraokeUITests.swift; sourceTree = "<group>"; };
 		318608F325BC3B73008CA279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DFA37825BCA9FA00DB896A /* cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cells.swift; sourceTree = "<group>"; };
+		31DFA38025BCB04F00DB896A /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		31DFA38C25BD718300DB896A /* Spotify-Karaoke.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Spotify-Karaoke.entitlements"; sourceTree = "<group>"; };
+		37A171A9941812082A57DCE3 /* Pods-Spotify-KaraokeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-KaraokeTests.release.xcconfig"; path = "Target Support Files/Pods-Spotify-KaraokeTests/Pods-Spotify-KaraokeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E194CB69077FD1C7CDAB7C8 /* Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A51B610209C1CD4DB039799 /* Pods_Spotify_Karaoke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify_Karaoke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC6F09DD42135AA00ADA51 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-Karaoke-Spotify-KaraokeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Spotify-Karaoke-Spotify-KaraokeUITests/Pods-Spotify-Karaoke-Spotify-KaraokeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91DDF0D0E9479FCCAB414E31 /* Pods_Spotify_KaraokeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify_KaraokeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB131BF22F3B7298EC3984AB /* Pods-Spotify-Karaoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-Karaoke.debug.xcconfig"; path = "Target Support Files/Pods-Spotify-Karaoke/Pods-Spotify-Karaoke.debug.xcconfig"; sourceTree = "<group>"; };
+		C2043401F6E0FB6A22F99F55 /* Pods-Spotify-Karaoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-Karaoke.release.xcconfig"; path = "Target Support Files/Pods-Spotify-Karaoke/Pods-Spotify-Karaoke.release.xcconfig"; sourceTree = "<group>"; };
+		C5FD48A71D69EB85A4E41E2D /* Pods-Spotify-KaraokeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify-KaraokeTests.debug.xcconfig"; path = "Target Support Files/Pods-Spotify-KaraokeTests/Pods-Spotify-KaraokeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC57F0A477FA11B9702851A /* Pods_Spotify_Karaoke.framework in Frameworks */,
+				31F5ABF125BDD48600084B52 /* BetterSafariView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB5E67014F91FFEC2BBC2F4 /* Pods_Spotify_KaraokeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20D36D062FB9CA271192DE5 /* Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +105,8 @@
 				318608E525BC3B73008CA279 /* Spotify-KaraokeTests */,
 				318608F025BC3B73008CA279 /* Spotify-KaraokeUITests */,
 				318608D225BC3B71008CA279 /* Products */,
+				4CB970028265208B45BC6F91 /* Pods */,
+				CE3941D03E607AE3185A8915 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +123,16 @@
 		318608D325BC3B71008CA279 /* Spotify-Karaoke */ = {
 			isa = PBXGroup;
 			children = (
+				31DFA38C25BD718300DB896A /* Spotify-Karaoke.entitlements */,
 				318608D425BC3B71008CA279 /* Spotify_KaraokeApp.swift */,
 				318608D625BC3B71008CA279 /* ContentView.swift */,
+				3161E66925BDB035008C2E91 /* joysound-biz.plist */,
+				31DFA38025BCB04F00DB896A /* SongList.swift */,
+				31DFA37825BCA9FA00DB896A /* cells.swift */,
 				318608D825BC3B72008CA279 /* Assets.xcassets */,
 				318608DD25BC3B72008CA279 /* Info.plist */,
 				318608DA25BC3B72008CA279 /* Preview Content */,
+				314EA48625BC4DB0008D26E8 /* code.swift */,
 			);
 			path = "Spotify-Karaoke";
 			sourceTree = "<group>";
@@ -130,6 +163,29 @@
 			path = "Spotify-KaraokeUITests";
 			sourceTree = "<group>";
 		};
+		4CB970028265208B45BC6F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB131BF22F3B7298EC3984AB /* Pods-Spotify-Karaoke.debug.xcconfig */,
+				C2043401F6E0FB6A22F99F55 /* Pods-Spotify-Karaoke.release.xcconfig */,
+				91DC6F09DD42135AA00ADA51 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.debug.xcconfig */,
+				1014E0C04935D13C960F6667 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.release.xcconfig */,
+				C5FD48A71D69EB85A4E41E2D /* Pods-Spotify-KaraokeTests.debug.xcconfig */,
+				37A171A9941812082A57DCE3 /* Pods-Spotify-KaraokeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE3941D03E607AE3185A8915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A51B610209C1CD4DB039799 /* Pods_Spotify_Karaoke.framework */,
+				5E194CB69077FD1C7CDAB7C8 /* Pods_Spotify_Karaoke_Spotify_KaraokeUITests.framework */,
+				91DDF0D0E9479FCCAB414E31 /* Pods_Spotify_KaraokeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +193,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 318608F625BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-Karaoke" */;
 			buildPhases = (
+				0C296055C37D945488482340 /* [CP] Check Pods Manifest.lock */,
 				318608CD25BC3B71008CA279 /* Sources */,
 				318608CE25BC3B71008CA279 /* Frameworks */,
 				318608CF25BC3B71008CA279 /* Resources */,
+				47E944A0E698AB375FBB7F02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Spotify-Karaoke";
+			packageProductDependencies = (
+				31F5ABF025BDD48600084B52 /* BetterSafariView */,
+			);
 			productName = "Spotify-Karaoke";
 			productReference = 318608D125BC3B71008CA279 /* Spotify-Karaoke.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 318608F925BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeTests" */;
 			buildPhases = (
+				6F7DB379F9AA9A55A070DE03 /* [CP] Check Pods Manifest.lock */,
 				318608DE25BC3B73008CA279 /* Sources */,
 				318608DF25BC3B73008CA279 /* Frameworks */,
 				318608E025BC3B73008CA279 /* Resources */,
@@ -172,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 318608FC25BC3B73008CA279 /* Build configuration list for PBXNativeTarget "Spotify-KaraokeUITests" */;
 			buildPhases = (
+				1EC6297F60A4E4A86A874807 /* [CP] Check Pods Manifest.lock */,
 				318608E925BC3B73008CA279 /* Sources */,
 				318608EA25BC3B73008CA279 /* Frameworks */,
 				318608EB25BC3B73008CA279 /* Resources */,
+				AF93DD3FC35B538606F2C867 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 318608C825BC3B71008CA279;
+			packageReferences = (
+				31F5ABEF25BDD48600084B52 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+			);
 			productRefGroup = 318608D225BC3B71008CA279 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				318608DC25BC3B72008CA279 /* Preview Assets.xcassets in Resources */,
+				3161E66A25BDB035008C2E91 /* joysound-biz.plist in Resources */,
 				318608D925BC3B72008CA279 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +322,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C296055C37D945488482340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spotify-Karaoke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC6297F60A4E4A86A874807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spotify-Karaoke-Spotify-KaraokeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E944A0E698AB375FBB7F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke/Pods-Spotify-Karaoke-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke/Pods-Spotify-Karaoke-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke/Pods-Spotify-Karaoke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7DB379F9AA9A55A070DE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spotify-KaraokeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF93DD3FC35B538606F2C867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke-Spotify-KaraokeUITests/Pods-Spotify-Karaoke-Spotify-KaraokeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke-Spotify-KaraokeUITests/Pods-Spotify-Karaoke-Spotify-KaraokeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spotify-Karaoke-Spotify-KaraokeUITests/Pods-Spotify-Karaoke-Spotify-KaraokeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		318608CD25BC3B71008CA279 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DFA38125BCB04F00DB896A /* SongList.swift in Sources */,
+				314EA48725BC4DB0008D26E8 /* code.swift in Sources */,
+				31DFA37925BCA9FA00DB896A /* cells.swift in Sources */,
 				318608D725BC3B71008CA279 /* ContentView.swift in Sources */,
 				318608D525BC3B71008CA279 /* Spotify_KaraokeApp.swift in Sources */,
 			);
@@ -414,9 +588,11 @@
 		};
 		318608F725BC3B73008CA279 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB131BF22F3B7298EC3984AB /* Pods-Spotify-Karaoke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Spotify-Karaoke/Spotify-Karaoke.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Spotify-Karaoke/Preview Content\"";
 				DEVELOPMENT_TEAM = 7X8BLQTS87;
@@ -429,6 +605,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-Karaoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,9 +613,11 @@
 		};
 		318608F825BC3B73008CA279 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2043401F6E0FB6A22F99F55 /* Pods-Spotify-Karaoke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Spotify-Karaoke/Spotify-Karaoke.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Spotify-Karaoke/Preview Content\"";
 				DEVELOPMENT_TEAM = 7X8BLQTS87;
@@ -451,6 +630,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.Spotify-Karaoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +638,7 @@
 		};
 		318608FA25BC3B73008CA279 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FD48A71D69EB85A4E41E2D /* Pods-Spotify-KaraokeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +661,7 @@
 		};
 		318608FB25BC3B73008CA279 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A171A9941812082A57DCE3 /* Pods-Spotify-KaraokeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +684,7 @@
 		};
 		318608FD25BC3B73008CA279 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DC6F09DD42135AA00ADA51 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +705,7 @@
 		};
 		318608FE25BC3B73008CA279 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1014E0C04935D13C960F6667 /* Pods-Spotify-Karaoke-Spotify-KaraokeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +764,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31F5ABEF25BDD48600084B52 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31F5ABF025BDD48600084B52 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31F5ABEF25BDD48600084B52 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 318608C925BC3B71008CA279 /* Project object */;
 }

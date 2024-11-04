@@ -1,0 +1,6 @@
+.DS_Store
+[Dd]esktop.ini
+
+*.xcodeproj/xcuserdata/
+Pods/
+Podfile.lock
